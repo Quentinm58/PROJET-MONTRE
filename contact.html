@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="contact.css">
+        <meta charset="utf8">
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <nav class="nav">
+            <ul class="menu">
+                <div class="logo"> Watches <br> Strore</div>
+                <li><a href="/HtmlCss/accueil.html">Accueil</a></li>
+                <li><a href="/HtmlCss/produit.html">Produit</a></li>
+                <li><a href="/HtmlCss/contact.html">Contact</a></li>
+                <li><a href="/HtmlCss/panier.html">Panier</a></li>
+                <li><a href="/HtmlCss/profil.html">Profil</a></li>
+            </ul>
+        </nav>
+    
+        <h1>Formulaire html</h1>
+
+        <form>
+            <div>
+                <label for="name">Nom :</label><br>
+                <input type="text">
+            </div>
+            <div>
+                <label for="prenom">Prénom :</label><br>
+                <input type="text">
+            </div>
+            
+            <div>
+                
+                    <label for="man">Homme</label>
+                    <input type="radio" id="man" name="meal" value="man"><br>
+                    <label for="woman">Femme</label>
+                    <input type="radio" id="woman" name="meal" value="woman"><br>
+                    <label for="other">Autre</label>
+                    <input type="radio" id="other" name="meal" value="other">
+                
+            </div>
+            
+            <div>
+                <p>Quel est votre problème ?</p>
+                <select>
+                    <option>Objet cassé</option>
+                    <option>Garantie</option>
+                    <option>Facture</option>
+                </select><br>
+            </div>
+            
+            <div>
+                <label for="msg">Message :</label><br>
+                <textarea id="msg" name="user_message" cols="30" rows="10">  </textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
